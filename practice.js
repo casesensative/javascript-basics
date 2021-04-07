@@ -57,7 +57,7 @@ function greeting(name) {
 //Code Here
 
 const newGreeting = function(name) {
-  return "Hello, " + name + ".";
+  return "Hello, " + name;
 }
 
 //////////////////PROBLEM 8////////////////////
@@ -158,7 +158,7 @@ function faveColorFinder(color) {
       return 'so trendy';
       break;
     default:
-      'you need to evaluate your favorite color choice'
+      return 'you need to evaluate your favorite color choice';
   }
 
 }
